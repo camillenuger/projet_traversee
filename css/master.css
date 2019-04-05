@@ -1,0 +1,56 @@
+body {
+
+}
+
+.view {
+  min-height: 80vh;
+  background: url('images/background_traversee.jpg') top center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.choices {
+
+}
+
+.rive-gauche {}
+
+.rive-droite {
+
+
+}
+
+.couple {
+  display: flex;
+}
+
+.page,
+.chevalier {
+  border: 1px solid red;
+  max-width: 220px;
+}
+
+.couple div img {
+  width: 100%;
+}
+
+.choices {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 18px;
+}
+
+
+.choice {
+  max-width: 120px;
+  display: flex;
+}
+
+.choice .couple {
+  display: flex;
+}
+
+.choice img {
+
+}
