@@ -2,12 +2,19 @@ body {
 
 }
 
+
+header {
+  background: transparent;
+  position: fixed;
+}
+
 .view {
   min-height: 80vh;
-  background: url('images/background_traversee.jpg') top center no-repeat;
+  background: url('images/background_traversee.jpg') bottom center no-repeat;
   background-size: cover;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .choices {
