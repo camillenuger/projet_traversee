@@ -6,15 +6,37 @@ body {
 header {
   background: transparent;
   position: fixed;
+  display: flex;
+  align-items: center;
 }
-.win{
-  min-height: 80vh;
-  background: url('images/design-07.jpg') bottom center no-repeat;
-  background-size: cover;
+
+nav ul {
+  display: flex;
+  min-width: 640px;
+  justify-content: space-around;
+  list-style-type: none;
+}
 
 footer {
     background: transparent;
 }
+.first {
+  min-height: 80vh;
+background: url('images/design_plan_de_travail_1.png') bottom center no-repeat;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.consignes {
+  min-height: 80vh;
+background: url('images/design-02.png') bottom center no-repeat;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+
 
 .view {
   min-height: 80vh;
@@ -22,7 +44,7 @@ footer {
   background-size: cover;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .choices {
@@ -43,7 +65,7 @@ footer {
 .page,
 .chevalier {
   border: 1px solid red;
-  max-width: 220px;
+  max-width: 120px;
 }
 
 .couple div img {
@@ -53,12 +75,13 @@ footer {
 .choices {
   display: flex;
   justify-content: space-evenly;
-  padding: 18px;
+  padding: 70px;
+  background: #004346;
 }
 
 
 .choice {
-  max-width: 120px;
+  max-width: 200px;
   display: flex;
 }
 
