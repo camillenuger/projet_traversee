@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+
+
+body {
+  font-family: 'Concert One', cursive;
+color: #f2875c;
+	margin-bottom: 15em;
+
+}
+
+h1 {
+    display: block;
+    font-size: 2.5em;
+    margin-block-start: 40px;
+    margin-block-end: 0.67em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+    font-weight: lighter;
+}

@@ -12,8 +12,10 @@ header {
   background: url('images/design-07.jpg') bottom center no-repeat;
   background-size: cover;
 
-
+footer {
+    background: transparent;
 }
+
 .view {
   min-height: 80vh;
   background: url('images/background_traversee.jpg') bottom center no-repeat;
