@@ -7,7 +7,13 @@ header {
   background: transparent;
   position: fixed;
 }
+.win{
+  min-height: 80vh;
+  background: url('images/design-07.jpg') bottom center no-repeat;
+  background-size: cover;
 
+
+}
 .view {
   min-height: 80vh;
   background: url('images/background_traversee.jpg') bottom center no-repeat;
