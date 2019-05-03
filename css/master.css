@@ -17,6 +17,10 @@ nav ul {
   list-style-type: none;
 }
 
+footer {
+    background: transparent;
+}
+
 .view {
   min-height: 80vh;
   background: url('images/background_traversee.jpg') bottom center no-repeat;
