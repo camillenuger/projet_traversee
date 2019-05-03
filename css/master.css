@@ -6,6 +6,19 @@ body {
 header {
   background: transparent;
   position: fixed;
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  min-width: 640px;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+footer {
+    background: transparent;
 }
 .first {
   min-height: 80vh;
@@ -31,7 +44,7 @@ align-items: center;}
   background-size: cover;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .choices {
@@ -52,7 +65,7 @@ align-items: center;}
 .page,
 .chevalier {
   border: 1px solid red;
-  max-width: 220px;
+  max-width: 120px;
 }
 
 .couple div img {
@@ -62,12 +75,13 @@ align-items: center;}
 .choices {
   display: flex;
   justify-content: space-evenly;
-  padding: 18px;
+  padding: 70px;
+  background: #004346;
 }
 
 
 .choice {
-  max-width: 120px;
+  max-width: 200px;
   display: flex;
 }
 
