@@ -4,17 +4,33 @@ body {
 
 
 header {
+  width: 110%;
   background: transparent;
   position: fixed;
   display: flex;
   align-items: center;
+  justify-content: space-around;
+}
+
+a {
+ color: #f2875c;
 }
 
 nav ul {
   display: flex;
-  min-width: 640px;
-  justify-content: space-around;
+  max-height: 400px
+  ;
+  justify-content: flex-end;
+  align-items: center;
   list-style-type: none;
+}
+
+nav li {
+
+}
+
+nav img {
+  max-width: 90px;
 }
 
 footer {
@@ -64,8 +80,7 @@ align-items: center;}
 
 .page,
 .chevalier {
-  border: 1px solid red;
-  max-width: 120px;
+  max-width: 160px;
 }
 
 .couple div img {
@@ -79,6 +94,13 @@ align-items: center;}
   background: #004346;
 }
 
+.consignes {
+ min-height: 80vh;
+background: url('images/background_traversee.jpg') bottom center no-repeat;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;}
 
 .choice {
   max-width: 200px;
@@ -90,5 +112,24 @@ align-items: center;}
 }
 
 .choice img {
+
+}
+
+
+.choices .page,
+.choices .chevalier {
+  border: 1px solid #91e0e2;
+  border-radius: 6px;;
+  max-width: 120px;
+}
+
+section p {
+ margin-left: auto;
+ margin-right: auto;
+max-width: 500px;
+padding: 25px;
+border-radius: 30px;
+background-color: rgba(255, 255, 255, 0.5);
+
 
 }
