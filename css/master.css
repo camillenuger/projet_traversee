@@ -36,6 +36,23 @@ nav img {
 footer {
     background: transparent;
 }
+.first {
+  min-height: 80vh;
+background: url('images/design_plan_de_travail_1.png') bottom center no-repeat;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+.consignes {
+  min-height: 80vh;
+background: url('images/design-02.png') bottom center no-repeat;
+background-size: cover;
+display: flex;
+justify-content: space-between;
+align-items: center;}
+
+
 
 .view {
   min-height: 80vh;
